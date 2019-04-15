@@ -1,0 +1,411 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+ /*Aside start*/
+
+.aside{ 
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	background-color: white;
+}
+.aside img{
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.logotip{
+	font-family: 'Montserrat';
+	text-align: left;
+	font-size: 24px;
+	margin-top: 12px;
+	margin-left: 85px;
+	text-transform: uppercase;
+	display: block;
+	background-color: none;
+	
+}
+.logotip span{
+	color: #aa5376;
+	font-weight: bold;
+}
+
+.menu-left{
+	position: relative;
+	display: block;
+	padding-top: 50px;
+	height: 60%;
+}
+.elementmenu{
+	padding-bottom: 30px;
+	margin-left: 10px;
+	font-size: 20px;
+
+}
+.elementmenu a{
+	color: #3F3F3F;
+	text-decoration: none;
+}
+
+
+ /*Aside end*/
+.outer{
+	display: block;
+	margin-left: 200px;
+
+}
+.first{
+	position: relative;
+	background-color: #f2f2f2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+}
+
+.message{
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	display: block;
+	left: 100px;
+	font-family: 'Montserrat';
+	font-size: 30px;
+	
+}
+.message h1{
+	position: 	relative;	
+	z-index: 109;
+}
+
+
+.img1{
+	position: relative	;
+	display: block;
+	top:80px;
+	width: 300px;
+	right: 300px;
+	float: right;
+	
+}
+#img1{
+	float: right;
+	width: 50%;
+
+}
+#img2{
+	margin-top: 100px;
+	float: left;
+	width: 50%;
+
+}
+
+.logotext{
+	color: #eceaeb;
+	position: relative;	
+	width: 300px;
+	left: 300px;
+	padding: 0;
+	margin: 0;
+	font-size: 23px;
+}
+.logotext h1{
+	text-transform: uppercase;
+	padding: 0;
+	
+	margin-top: 5px;
+
+	line-height: 47px;
+}
+.mobile{
+	position: absolute;
+	top:0;
+	right: 210px;
+	text-align: right;
+
+}
+.mobile h1{
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mobile a{
+	background-color: grey;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	
+	position:relative;
+	
+	padding: 7px;
+	border-radius: 5px;
+
+}
+/*------------WHY BLOCK--------*/
+.why-header{
+	position: relative;
+	margin: 0;
+	margin-top: -30px;
+	height: 100px;
+	z-index: 55;
+	background-color: white;
+}
+.why-header h1{
+	font-size: 40px;
+	padding-top: 40px;
+	text-align: center;	
+	font-family: 'Montserrat';
+}
+.why{
+	display: flex;
+	height: 400px;
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	/*выравнивание по ширине*/
+	justify-content: center;
+	/*выравнивание по высоте*/
+	align-items: center;
+	/*выравнивание по горизонту*/
+	align-content: space-around;
+}
+
+.why-flex{
+	background-color: #5ccccc;
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+	border-radius: 150px;
+}
+.why-flex h1{
+	font-family: 'Montserrat';
+	position: relative;
+	top: 300px;
+	text-align: center;
+}
+
+.why-flex.one{
+	background-image: url(../img/kruglik3.jpg);
+	background-size: cover;
+}
+.why-flex.two{
+	background-image: url(../img/Tulpen-Bedeutung.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.why-flex.three{
+	background-image: url(../img/1490353742.jpg);
+	background-size: cover;
+	background-position: right center;
+}
+
+/*------------WHY BLOCK END--------*/
+
+/*------------how we work start --------*/
+.how{
+	margin-top: 70px;
+	padding-top: 70px;
+	position: relative;
+	display: flex;
+	height: 150px;
+background-color: #f2f2f2;
+	justify-content: center;
+
+}
+.how-container{
+	height: 100px;
+	width: 80%;
+	margin-top: -30px;
+}
+.how-container h1{
+	font-family: 'Montserrat';
+
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.how-mini{
+	height: 300px;
+	position: relative;
+	display: flex;
+background-color: #f2f2f2;
+	justify-content: center;
+
+}
+.how-contini{
+	height: 80%;
+	width: 300px;
+	background-color: white;
+	margin: 10px;
+	font-family: 'Montserrat';
+	padding-left: 10px;
+
+}
+.how-contini#hc2{
+	background-color: white;
+	
+}	
+.how-contini#hc1{
+	background-color:white;
+}	
+
+
+
+
+/*------------how we work end --------*/
+
+
+
+
+
+
+
+
+.secondblock{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: relative;
+	display: flex;
+	
+	
+}
+.secondblockcontainer{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: relative;
+	z-index: 16;
+	display: block;
+	padding-top: 50px;
+	font-family: 'Montserrat';
+
+}
+.firstc{
+	position: relative;
+	margin-top: 10px;
+	width: 70%;
+
+}
+#second{
+	position: relative;
+	background-color:#f4dedf;
+	height: 150px;
+	width: 70%;
+	margin: auto;
+	z-index: 15;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+#second h1{
+	position: relative;
+
+}
+.sec h1{
+	top: 35px;
+}
+.second{
+	position: relative;
+	background-color:#954548 ;
+	height: 150px;
+	width: 70%;
+
+	margin: auto;
+	
+	z-index: 15;
+}
+.second h1{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.third h1{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.four h1{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.five h1{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.third{
+	position: relative;
+	background-color:#F0BDBA;
+	height: 150px;
+	width: 70%;
+	margin: auto;
+	z-index: 2;
+	
+}
+.four{
+	position: relative;
+	background-color:  #EE777B;
+	height: 150px;
+	width: 70%;
+	margin: auto;
+	z-index: 2;
+}
+.five{
+	position: relative;
+	background-color: #954548;
+	height: 150px;
+	width: 70%;
+	margin: auto;
+	z-index: 2;
+}
+
+ /*--------blockthree--------*/
+ .blocktree{
+ 	position: absolute;
+ 	display: block;
+ 	height: 500px;
+ 	width: 500px;
+
+}
+.blocktree h1{
+	position: absolute;
+	float:left;
+}
+ .blocktree img{	
+ 	background-repeat: no-repeat;	
+	background-position: center center;
+	background-attachment: scroll;
+	
+	position: absolute;
+	float: right;
+ }
+ .imglast{
+	z-index: 10;
+	position: absolute;
+	display: block;
+	top:100px;
+	right: 50px;
+}
+
+.lastmessage{
+	
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	display: block;
+	left: 100px;
+	
+	font-family: 'Montserrat';
+	font-size: 30px;
+	z-index: 11;
+}
+.last{
+	position: relative;
+	background-color: #f2f2f2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+}
+

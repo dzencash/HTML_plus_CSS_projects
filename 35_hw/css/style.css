@@ -1,0 +1,61 @@
+@import url(stylereset.css);
+
+
+header{
+	height: 15vh;
+	background-color: coral;
+}
+header h4{
+	padding-top:5vh;
+	padding-left: 8vw;
+	font-size: 20px;
+}
+footer{
+	height: 10vh;
+	background-color: coral;
+}
+footer h4{
+	padding-top:3.5vh;
+	padding-left: 8vw;
+	font-size: 20px;
+}
+.column-block{
+	display: flex;
+	width: 85vw;
+	min-height: 500px;
+	margin: auto;
+	justify-content: space-between;
+	align-items: stretch;
+	
+}
+
+.column1{
+	margin: 10px;
+	border:1px solid black;
+	min-height: 600px;
+	
+}
+.image{
+	
+}
+.image.one{
+	background-image: url(../img/pic1.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 40px;
+	padding-bottom: 100%;
+}
+.image.two{
+	background-image: url(../img/pic2.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 40px;
+	padding-bottom: 100%;
+}
+.image.three{
+	background-image: url(../img/pic3.png);
+	background-size: cover;
+	background-position: center center;
+	height: 40px;
+	padding-bottom: 100%;
+}

@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.img{
+	background-attachment: fixed;
+	position: relative;
+	width: 100%;
+	height: 590px;
+	bottom: -25px;
+	z-index: -50;
+	background-position: center top;
+}
+.img_container h1 {
+	position: absolute;
+	bottom: 480px;
+	left: 230px;
+	font-size: 40px;
+	text-align: center;
+	width: 900px;
+	background-color: grey;
+	border: 2px black solid;
+	border-radius: 	20px;
+}
+.img_container h3 {
+	position: absolute;
+	right: 420px;
+	top: 80px;
+	font-size: 25px;
+	text-align: center;
+	width: 500px;
+}
+
+.img_button h3 {
+	position: absolute;
+	bottom: 15px;
+	left: 448px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.img_container2{
+	background-color: grey;
+	height: 340px;
+	width: 100%;
+	position: relative;
+	top: 230px;
+
+}
+
+/*Button start*/
+.feedback{
+	background-color: #182837;
+	height: 300px;
+	width: 350px;
+	position: relative;
+	right: 100px;
+	top: 20px;
+	float: right;
+	
+}
+#textarea{
+	padding-left: 10px;
+}
+#textarea1{
+	padding-left: 10px;
+}
+.feedback{
+	background-color: #182837;
+	height: 300px;
+	width: 350px;
+	position: absolute;
+	left: 700px;
+
+}
+.feedback-input{
+
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 32px;
+	color: white;
+	padding: 0px;
+	margin-bottom: 10px;
+	width: 300px;
+	box-sizing: border-box;
+	border: 0px solid transparent;
+	border-bottom: 1px solid black;
+	position: relative;
+	left: 26px;
+	vertical-align: middle;
+	float: left;
+}
+.button_submit{
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 25px;
+	top: 20px;
+	width: 300px;
+	border: 0px solid transparent;
+	cursor: pointer;
+	border-color: black;
+	background-color: white;
+	color: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 300;
+	border-radius: 28px;
+	font-size: 25px;
+	z-index: 1;
+
+}
+.button_submit:hover{
+	background-color: #08C17E;
+	border: 1px solid transparent;
+	font-size: 28px;
+}
+
+
+.img_content{
+	float: left;
+	width: 50%;
+	position: absolute;
+	left: 150px;
+	top: 240px;
+	font-size: 30px;
+
+}
+.img_content p{
+	text-align: left;
+
+}
+.page{
+	font-family: 'Alegreya', serif;
+	font-size: 20px;
+	width: 100%;
+}
+.block{
+	display: inline-block;
+	float: both;
+	height: 50px;
+	width: 100%;
+	
+}
+ul{
+	word-spacing: 0px;
+	position: fixed;
+	position: absolute;
+	bottom: 580px;
+
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	
+
+}
+.tel{
+	position: relative;
+	left: 600px;
+}
+
+.pr{
+	background-color: rgba(192,192,192,.9);
+	height: 650px;
+}
+.sectionname_3{
+	
+	height: 80px;
+}
+.sectionname_3 h1{
+	font-family: 'Alegreya', serif;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+footer{
+	height: 50px;
+	text-align: center;
+	position: relative;
+}
+a{
+	color:black;
+	text-decoration: none;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.fear{
+	position: relative;
+	height: 700px;
+	
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.fear p{
+	font-size: 19px;
+}
+.fear h1{
+	background-color: rgba(192,192,192,.2);
+}
+
+
+.fear div{
+	display: inline-block;
+	width: 30%;
+	height: 460px;
+	
+	vertical-align: top;
+}
+.icon{
+	position: relative;
+	height: 200px;
+	background-image: url(../img/gigiena.png);
+	background-position: center center;
+	background-size:200px;
+	background-repeat: no-repeat;
+
+}
+.icon2{
+	position: relative;
+	height: 200px;
+	background-image: url(../img/lupa.png);
+	background-position: center center;
+	background-size:200px;
+	background-repeat: no-repeat;
+
+}
+.icon3{
+	position: relative;
+	height: 200px;
+	background-image: url(../img/virus.png);
+	background-position: center center;
+	background-size: 200px;
+	background-repeat: no-repeat;
+
+}
+
+.psection{
+	position: relative;
+	height: 300px;
+	background-position: center center;
+	background-size:200px;
+	background-repeat: no-repeat;
+
+}
+.fear2{
+	position: relative;
+	height: 580px;
+	background-color: rgba(192,192,192,.2);
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.fear2 p{
+	font-size: 19px;
+}
+.fear2 h1{
+	font-size: 50px;
+	margin: 0;
+	padding: 10px;
+	border: 0;
+	}
+
+.fear2 div{
+	display: inline-block;
+	width: 30%;
+	height: 280px;
+	border-top: 6px black solid;
+	border-bottom: 6px black dotted;
+	border-left: 6px black double;
+	border-right: 6px black dashed;
+	border-style: solid;
+	vertical-align: top;
+	}
+.knopka2 a {
+	position: absolute;
+	text-align: center;
+	bottom: 45px;
+	right: 530px;
+	font-size: 60px;
+	background-color: white;
+	padding: 7px;
+	border-radius: 30px;
+	font-family:'Alegreya', serif;
+	text-transform: uppercase;
+}
+.knopka3 a {
+	position: absolute;
+	text-align: center;
+	bottom: 35px;
+	right: 500px;
+	font-size: 40px;
+	background-color: white;
+	padding: 7px;
+	border-radius: 30px;
+	font-family:'Alegreya', serif;
+	text-transform: uppercase;
+	border-top: 3px black solid;
+	border-bottom: 3px black dotted;
+	border-left: 3px black double;
+	border-right: 3px black dashed;
+	border-style: solid;
+}
+
+
+.products {
+	height: 700px;
+	text-align: center;
+	padding-top: 4px;
+	margin-top: 0;
+}
+.product_section{
+	text-align: center;
+	height: 300px;
+	margin: 0px;
+}
+.products section{
+	float: left;
+	width: 33%;
+	border: 3px black normal;
+}
+
+.maintext{
+	position: absolute;
+	
+
+}
+
+.maintext div{
+	width: 45%;
+	display: inline-block;
+	
+
+}
+
+
+
+/*Button CSS start*/

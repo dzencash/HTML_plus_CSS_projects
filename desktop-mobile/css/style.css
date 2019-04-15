@@ -1,0 +1,72 @@
+@import url(stylereset.css);
+
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: navy;	
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: navy;	
+}
+
+.container1{
+	display: block;
+	margin: auto;
+	padding-top: 50px;
+	width: 90%;
+}
+.container2{
+	margin: auto;
+	padding-bottom: 50px;
+	display: block;
+	width: 90%;
+}
+
+
+.article{
+	border: 1px solid grey;
+	border-radius: 15px;
+	padding: 20px;	
+	margin-top: 10px;
+	margin-left: 10px;
+
+
+}
+.article h1{
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+
+@media screen and (min-width: 600px){
+
+.container1{
+	width: 600px;
+	display: flex;
+	margin: auto;
+	padding-top: 50px;
+
+}
+.container2{
+	width: 600px;
+	display: flex;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.article{
+	border: 1px solid grey;
+	border-radius: 15px;
+	padding: 20px;	
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.article h1{
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+}

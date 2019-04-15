@@ -1,0 +1,97 @@
+.header{
+	margin: 1px;
+	height: 40px;
+	position: relative;
+	top: -45px;
+}
+.menu{
+	
+	position: fixed;
+	line-height:40px;
+	width: 100%;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+ul{
+	position: relative;
+	padding-left: 40px;
+	background-color: rgba(255, 255, 255, .2);
+	height: 70px;
+	margin-top: 40px;
+	font-size: 20px;
+}
+li{
+	margin: 10px;
+	padding: 7px 5px 7px 5px;
+	color: black;
+	position: relative;
+	top: 15px;
+}
+
+.menu_container{
+	display:inline;
+	margin-top: 15px;
+	position: relative;
+	right: 5px;
+
+
+}
+.menu_container2{
+	display:inline;
+	position: relative;
+	left: 900px;
+	
+}
+
+/*Message*/
+h1{
+	font-size: 40px;
+	width: 100%;
+	color: black;
+	position: relative;
+	top: 100px;
+	text-align: center;
+	background-color: rgba(255,255,255,.2);
+
+}
+
+
+
+
+/* Main div start*/
+
+.main{
+	margin-left:-10px;
+	border:0px;
+	padding: 0px;
+	height: 600px;
+	width: 100%;		
+	background-image: url(../img/cr4.jpg);
+	background-size:cover;
+	background-position: center;
+	
+}
+
+.main2{
+	margin-top: 20px;
+	height: 650px;
+	width: 100%;		
+	background-image: url(../img/cr5.jpg);
+	background-size: cover;
+	background-position: bottom;
+
+.form {}
+    display: block;
+    text-decoration: none;
+    float: right;}
+    height: 45px;}
+    border: 1px solid #cacacb;
+    color: #201f1f;}
+    border-radius: 5px;}
+    background: #ffffff;}
+    margin: 17px 0 17px;
+    padding: 5px 54px 18px 10px;
+    position: relative;
+}

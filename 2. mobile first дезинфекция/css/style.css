@@ -1,0 +1,49 @@
+@import url(stylereset.css);
+ 
+ div{
+ 	border: 1px solid orange;
+ }
+
+header{
+	text-align: center;
+	padding: 5%;
+}
+footer{
+	text-align: center;
+	padding: 5%;
+}
+
+.mui-row.two{
+	margin-top: 5%;
+
+}
+.map{
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+
+}
+.map.one{
+	background-image: url(../img/place1.png);
+	
+}	
+.map.two{
+	background-image: url(../img/place2.png);
+	
+}	
+.map.three{
+	background-image: url(../img/place3.png);
+	
+}	
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+div{
+	border: 1px solid black;
+}
+}

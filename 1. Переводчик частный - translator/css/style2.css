@@ -1,0 +1,260 @@
+@import url(stylereset.css);
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+.page{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	top:350px;
+	width: 80%;
+	
+	margin: auto;
+}
+
+
+.asideclass{
+	display: flex;
+	position: fixed;
+	background-color: #F1F1F1;
+	border-bottom: 1px;
+	box-shadow: 0px 18px 150px 50px #F1F1F1;
+	height: 1%;
+	width: 100%;
+	z-index: 9999;
+	
+
+}
+
+.asideone h1{
+	text-align: right;
+}
+.aside{
+	margin-top: 5%;
+	color: black;
+	font-size: 3em;
+
+	width: 50%;
+	
+}
+.asidet	{
+	position: relative;
+	left: 170px;
+
+}
+
+
+
+
+.section-aside{
+	display: flex;
+	width: 100%;
+	margin-top: 15px;
+	align-items: center;
+	font-size: 2em;
+	
+	
+	
+}
+.top-right{
+	text-align: right;
+	width: 80%;
+	margin-right: 140px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.top-left{
+	margin-left: 100px;
+}
+
+
+
+
+
+.section-top{
+	margin: auto;
+	line-height:90px;
+	width: 95%;	
+
+}
+.section-top h1{
+	width: 110%;
+	font-size: 4.5em;
+	
+
+}
+.section-top a{
+	color: navy;
+
+
+}
+
+
+
+
+
+
+.section-two{
+	margin: auto;
+	
+	margin-top: 300px;
+	margin-bottom: 100px;
+	width: 90%;
+	
+	
+}	
+.section-two h1{
+	font-size: 4em;
+	font-weight:bold ;
+	padding-bottom: 20px;
+}
+.section-two p, ol{
+	font-size: 1.2em;
+	word-spacing: 3px;
+	padding-top: 20px
+
+}
+
+.section-three{
+	margin: auto;
+	
+	margin-top: 300px;
+	margin-bottom: 100px;
+	width: 80%;
+}
+.section-three h1{
+	font-size: 4em;
+	font-weight:bold ;
+	padding-bottom: 20px;
+}
+.section-three p, ul{
+	font-size: 1.8em;
+	word-spacing: 3px;
+	padding-top: 20px
+
+
+}
+.section-three p{
+	margin-bottom: 30px;
+}
+.section-three li{
+	font-size: .8em;
+	padding-top: 15px;
+
+}
+.section-two li{
+	font-size: 0.6em;
+	padding-top: 15px;
+}
+.section-two ol{
+	list-style-position: inside;
+	list-style-type: square;
+
+}
+
+form{
+	
+	background-color: white;
+	margin:auto;
+	
+}
+fieldset [placeholder]
+{
+	padding-left:5px;
+	
+}
+
+input, select, textarea{
+-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	background-color: lightgrey;
+	height: 35px;
+	font-size: .8em;
+	border: 1px solid black;
+	width: 100%;
+}
+input:focus, textarea:focus, select:focus{
+	 outline: none;
+}
+
+label,span{
+	font-size: .9em;
+	line-height: 2rem;
+}
+label{
+	display: block;
+}
+input[type="submit"]{
+	
+	height: 50px;
+	cursor: pointer;
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 960px) {
+
+}
+@media screen and (min-width: 1264px) {
+.page{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	top:200px;
+	width: 80%;
+	
+	margin: auto;
+}
+
+
+.asideclass{
+	display: flex;
+	position: fixed;
+	background-color:white;
+	border-bottom: none;
+	box-shadow: none;
+	
+	z-index: 9999;
+	justify-content: space-between;
+
+}
+
+
+.aside{
+	color: black;
+	font-size: 2em;
+	height: 100px;
+	position: relative;
+ 	word-wrap: break-word;
+}
+.asideone a{
+	display: block;
+	margin-left: 50px;
+	text-align: right;
+}
+.asideone{
+	width: 200px;
+}
+.asidet a{
+	margin-left: 300px;
+}
+.section-top{
+	width: 80%;
+}
+.section-two{
+	font-size: 1.5em;
+	width: 80%;
+}
+.section-two h1{
+	font-size: 2.5em;
+}
+.section-two li{
+	font-size: 1.1em;
+}
+}

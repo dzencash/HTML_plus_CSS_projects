@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.bodydiv{
+	position: relative;
+}
+
+
+.header{
+	height: 40px;
+	margin-top: 130px;
+	font-family: 'Montserrat';
+}
+.header h1{
+	padding-top: 18px;
+	
+	margin: 0;
+	text-align: center;
+	background-color: white;
+	font-size: 45px;
+}
+.header h3{
+	padding-top: 5px;
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+	
+}
+/* -------------Menu---------------*/
+.menu{
+	background-color: #0078CF;
+	height: 100px;
+	overflow: hidden;	
+	position: fixed;
+	width: 100%;	
+	top: 0;
+	z-index: 1;
+}
+.cisc img{
+	width: 100px;
+	height: 79px;
+	right: 10px;
+}
+.cisc{
+	position: absolute;
+	display: block;
+	left: 170px;
+	top: 14px;
+}
+.cisc-text{
+	line-height: 30px;
+	position: absolute;
+	display: block;
+	top: 20px;
+	left: 280px;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: left;
+}
+.cisc-text2{
+	line-height: 30px;
+	position: absolute;
+	display: block;
+	top: 75px;
+	left: 280px;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 8px;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	
+}
+.contacts{
+	font-family: sans-serif;
+	float: right;
+    text-align: right;
+    margin-right: 75px;
+    margin-top: 5px;
+	font-family: 'Montserrat';
+	color: white;
+}
+.phone{
+	width: 280px;
+	height: 55px;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	display: block;
+	bottom:10px;
+	right: 150px;
+}
+.time{
+	font-size: 20px;
+	position: relative;
+	display: block;
+	bottom:30px;
+	right: 150px;
+}
+
+.menudiv1a{
+	float: left;
+	width: 500px;
+	height: 100px;
+}
+.menudiv1a p{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	margin-left: 5px;
+	padding-top: 5px;
+	display: inline-block;
+	font-size: 23px;
+}
+.menudiv1a img{
+	width: 60px;
+	height: 60px;
+
+}
+.menudiv1b{
+	float: right;
+	width: 200px;
+	height: 100px;
+}
+
+
+
+/*-------First Page Start-------*/
+
+
+.first{
+
+	padding-top: 100px;
+	opacity: 	2;
+	position: relative;
+
+
+}
+.space{
+	background-color: #FFFFFF;
+	height: 60px;
+}
+.footer{
+	background-color: #FFFFFF;
+	height: 50px;
+	display: block;
+}
+
+
+.main{
+	display: inline-block;
+}
+.raw{
+	height: 400px;
+	margin-top: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+}
+
+
+.mainbut{
+	background-color: #FFFFFF;
+	height: 200px;
+	width: 200px;
+	width: 33%;
+	float: right;
+	
+}
+
+/*CONTACT FORM START*/
+
+}
+.form{
+	width: 50%;
+	margin: 50px auto;
+}
+
+
+.feedback{
+	background-color: #182837;
+	height: 285px;
+	width: 350px;
+	position: relative;
+	left: 400px;
+		
+}
+
+.feedback-input1{
+
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 32px;
+	color: white;
+	padding: 0px;
+	margin-bottom: 10px;
+	width: 300px;
+	box-sizing: border-box;
+	border: 0px solid transparent;
+	border-bottom: 1px solid black;
+	position: relative;
+	left: 26px;
+	vertical-align: middle;
+	line-height: 27px;
+	
+}
+.feedback-input1 h4{
+		
+}
+#ask{
+	margin:0;
+	position: relative;
+	bottom:250px;
+	margin-bottom: 10px;
+	padding: 0;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.feedback-input{
+	font-family: 'Arial';
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 32px;
+	color: black;
+	padding: 0px;
+	margin-top:-10px;
+	width: 300px;
+	box-sizing: border-box;
+	border: 0px solid transparent;
+	border-bottom: 1px solid black;
+	position: relative;
+	bottom: 250px;
+	left: 26px;
+	
+	
+}
+.button_submit{
+	
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 25px;
+	bottom: 240px;
+	width: 300px;
+	border: 0px solid transparent;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	margin-top:-5px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	transition: all 0.3s;
+	font-weight: 300;
+	font-size: 18px;
+
+}
+.button_submit:hover{
+	background-color: #08C17E;
+	border: 1px solid transparent;
+	font-size: 20px;
+
+}
+
+
+
+/*--------------Main TEXT start----------*/
+.maintext{
+	position: relative;
+	width: 400px;
+	margin-top: 15px;
+	display: block;
+	margin-left: 310px;
+	font-size: 10px;
+	font-family: 'Montserrat';
+}
+
+.maintext h2, h4{
+	padding: 0;
+	margin: 0;
+
+}
+
+.maintext h2{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 50px;
+}
+
+.maintext h4{
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+
+.logo1{
+	position: relative;
+	float:left;
+	bottom: 28px;
+	left: 190px;
+	height: 300px;
+	width: 100px;
+	
+	background-size: cover;
+	background-repeat: no-repeat;	
+	background-position: center center;
+}
+
+.img1{
+	margin: 0;
+	background-position: center center;
+	height: 100px;
+	width: 100px;
+	display: block;
+	right: 19px;
+	top: 10px;
+	position: relative;
+
+}
+#img2{
+	height: 75px;
+	width: 75px;
+	
+	right: 10px;
+}
+#img3{
+	height: 75px;
+	width: 75px;
+	position: relative;
+	right: 2px;
+}
+
+input{
+	color: black;
+}
+
+#textarea{
+	height: 80px;
+	resize: none;
+	
+}
+
+/*------Important to know -------*/
+
+.itknow{
+	height: 650px;
+	margin-left:180px; 
+	margin-right:180px;
+	background-color: #CCD2D9;
+	opacity: 1;
+	z-index: 4;
+	margin-top: -30px 0 0;
+	text-align: left;
+
+}
+
+.itknow-content h1{
+	position: relative;
+	font-size: 30px;
+}
+
+
+
+
+/*Second*/
+.second{
+	position: relative;	
+	background-color: white;
+	opacity: .9;
+	height: 500px;	
+}
+.scontainer{
+	border-radius: 30px;
+	border: 1px solid transparent;
+	position: 	absolute;	
+	z-index:1;
+	background-color: #182837;
+	opacity: 1;
+	margin-top: -40px;
+   	margin-left: 300px;
+	padding-left: 10px;
+   	width: 700px;	
+   	height: 150px;	
+}
+.scontainer2{
+	border-radius: 30px;
+	border: 1px solid transparent;
+	position: 	absolute;
+	top: 340px;	
+	z-index:1;
+	background-color: #182837;
+	opacity: 1;
+	margin-top: -40px;
+   	margin-left: 300px;
+	padding-left: 10px;
+   	width: 700px;	
+   	height: 150px;	
+}
+
+.scontainer3{
+	border-radius: 30px;
+	border: 1px solid transparent;
+	position: 	absolute;
+	top: 170px;	
+	z-index:1;
+	background-color: #182837;
+	opacity: 1;
+	margin-top: -40px;
+   	margin-left: 300px;
+	padding-left: 10px;
+   	width: 700px;	
+   	height: 150px;	
+}
+.case-info h3{	
+	margin-top: 30px;
+   	color: white ;
+   	font-size: 	30px;
+   	color: white;
+   	line-height: 23px;
+  }
+  .case-info p{	
+	line-height: 23px;
+   	color: white ;
+	font-size: 24px;
+}
+
+
+
+.service-img{
+	position: relative;
+	height: 700px;
+	width: 700px;
+	background-image: url(../img/table.png);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	background-position: center center;
+
+}
+
+/*----Footer Start----*/
+
+
+footer{
+  	position: relative;	
+  	
+  	background-color: #0078CF;
+  	margin-top: 85px;
+  }
+ footer p{
+ 	position: relative;
+	display: block;
+	height: 51px;
+	
+ }
+ footer a{
+	
+ 	color: white;
+ 	text-decoration: none;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	margin-top: 18px;
+
+ }
+
+
+
+/*----botton----*/
+
+.formaction{
+	
+	position: relative;
+	float: right;
+	display: block;
+	
+	background-color: #182837;
+	width: 313px;
+	height: 270px;
+	margin-right: 200px;
+	
+}
+
+.formaction h1{
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	margin-top: 2px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	color: white;
+}
+.formaction span{
+	color: #08c17e;
+	font-size: 16px;
+}
+.formaction-content{
+	position: relative;
+	margin:20px;
+
+	
+}
+.formaction-input{
+	position: relative;
+	width: 250px;
+	height: 17px;
+	padding: 10px;
+	margin-top: 7px;
+	top: 10px;
+
+
+}
+#formaction-button{
+	position: relative;
+	font-size: 20px;
+	height: 50px;
+	width: 275px;
+	margin-top: 16px;
+}
+#input2{
+	margin-top: 13px;
+}
+
+
+
+
+
+
+
+/*KAK MI RABOTAEM*/
+.line{
+	height: 100px;	
+	width: 100%;
+
+	background-color: #0078CF;
+	position: 	relative;	
+	display: 	block;	
+	margin-top: 	80px;
+}
+.line ol{
+	font-family: 'Montserrat';
+	position: absolute;
+	color: white;
+	padding-top: 6px;
+	
+}
+.line li{
+	font-size: 20px;
+	width: 280px;
+	display: inline-block;
+	padding-left: 100px;
+	text-align: center;
+	
+}
+.work{
+	font-family: 'Montserrat';
+	position: 	relative;	
+	display: 	block;	
+	height: 450px;	
+	width: 100%;	
+	margin-top: 50px;
+
+}
+.block{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 400px;	
+	width: 300px;	
+	position: 	absolute;
+	display: 	inline-block;	
+	margin-left:11%;
+	border:2px solid grey;
+	border-radius: 10px;
+}
+
+#block2{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 320px;	
+	margin-left: 38%;
+	border:2px solid grey;
+	border-radius: 10px;
+
+}
+
+#block3{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 300px;	
+	margin-left: 67%;
+	border:2px solid grey;
+	border-radius: 10px;
+}
+
+/*Forma v podvale*/
+
+.formaction2{
+
+	position: relative;
+	display: block;
+	background-color: #182837;
+	width: 60%;
+	margin: auto;
+	height: 70px;
+	box-sizing: border-box;
+	border: 1px solid #182837;
+		
+}
+
+.formaction2 h1{
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	color: white;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.formaction-content2{
+	position: relative;
+	margin-left: 10px;	
+}
+.formaction-input2{
+	margin-top: 4px;
+	position: relative;
+	width: 250px;
+	height: 25px;
+	
+	font-family: 'Montserrat';
+}
+#formaction-button2{
+
+	font-family: 'Montserrat';
+	position: relative;
+	font-size: 16px;
+	height: 32px;
+	width: 275px;
+	top:1px;
+	margin: 0;
+	padding: 0;
+	opacity: .9;
+}
+
+
+
+/*what we are goin to do*/
+.whatwe{
+	height: 500px;
+}
+.wwtext h1{
+	font-family: 'Montserrat';
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 70px;
+}
+.wwblock{
+	padding-left: 20px;
+		display: flex;
+	justify-content: center;
+}
+.wwblock img{
+	
+	background-repeat: no-repeat;
+	width: 180px;
+	height: 180px;
+	position: relative;
+
+}
+#ww1{
+	padding-left: 70px;
+	width: 165px;
+	height: 165px;
+	padding-bottom: 15px
+}
+#ww2{
+	padding-left: 35px;
+}
+#ww3{
+	padding-left: 50px;
+}
+.wwitem{
+	width: 300px;
+	margin-bottom: 0;
+}
+.wwitem p{
+	font-family: 'Montserrat';
+	
+
+}
+
+
+
+
+
+
+
+
+
+
